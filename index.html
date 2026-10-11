@@ -574,7 +574,7 @@ function del(col,id){
 }
 
 /* ---------- Google Sheet (lien Apps Script /exec) ---------- */
-const SHEET_URL='https://script.google.com/macros/s/AKfycbyYB2m8KkNANsmMXbmq40Ej4NLasQ93DiL-OMRB9fyPf3i3EcfNSjGn-rTmJjJgQbrUQw/exec';
+const SHEET_URL='https://script.google.com/macros/s/AKfycbwdAMoxFrkOYNlQ8qV7Q__E4HP_WGogMCl20hjjUR9A34N4Lx0MwFab470QfyitfRd7DQ/exec';
 const PKEY='carnet-sheet-pending-v1';
 const SYNC={pending:[],busy:false,last:0,err:'',timer:null,warned:false};
 try{SYNC.pending=JSON.parse(localStorage.getItem(PKEY))||[]}catch(e){}
