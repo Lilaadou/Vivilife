@@ -1481,4 +1481,3 @@ document.addEventListener('click',ev=>{
 document.addEventListener('change',ev=>{const t=ev.target;if(t.dataset&&t.dataset.shoplabel){const v=t.value.trim();if(!v)return;saveShopLists(shopLists().map(l=>l.id===t.dataset.shoplabel?{...l,label:v}:l))}});
 render();boot();setInterval(tick,30000);setInterval(()=>{if(ready()&&UI.view==='today'&&$('#modal').hidden&&!document.activeElement.matches('input,textarea,select'))render()},60000);
 </script>
- 
